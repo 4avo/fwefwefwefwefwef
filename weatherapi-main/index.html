@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your City</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS CDN -->
+</head>
+<body class="bg-gray-900 text-gray-100 flex flex-col justify-center items-center min-h-screen">
+    
+    <nav class="w-full bg-gray-800 py-4 shadow-md fixed top-0 left-0">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="text-white text-lg font-bold hover:text-orange-400 transition">Choose your city</a>
+            <a href="cities.html" class="text-white text-lg font-bold hover:text-orange-400 transition">All cities</a>
+        </div>
+    </nav>
+    
+    <h1 class="text-4xl text-white font-extrabold mt-16 mb-12 text-center shadow-md">Choose Your City</h1>
+
+    <!-- Cities Selection -->
+    <div class="flex flex-wrap justify-around w-4/5 gap-6 mt-8">
+        <!-- City 1: London -->
+        <div class="relative w-64 h-80 cursor-pointer overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+            <a href="london.html" class="block h-full">
+                <img src="images/london.png" alt="London" class="w-full h-full object-cover filter brightness-75 transition duration-300 hover:brightness-90">
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-2xl text-white font-bold text-shadow-xl">London</div>
+            </a>
+        </div>
+
+        <!-- City 2: Paris -->
+        <div class="relative w-64 h-80 cursor-pointer overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+            <a href="paris.html" class="block h-full">
+                <img src="images/paris.jpg" alt="Paris" class="w-full h-full object-cover filter brightness-75 transition duration-300 hover:brightness-90">
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-2xl text-white font-bold text-shadow-xl">Paris</div>
+            </a>
+        </div>
+
+        <!-- City 3: New York -->
+        <div class="relative w-64 h-80 cursor-pointer overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+            <a href="new_york.html" class="block h-full">
+                <img src="images/new_york.jpg" alt="New York" class="w-full h-full object-cover filter brightness-75 transition duration-300 hover:brightness-90">
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-2xl text-white font-bold text-shadow-xl">New York</div>
+            </a>
+        </div>
+
+        <!-- City 4: Tokyo -->
+        <div class="relative w-64 h-80 cursor-pointer overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+            <a href="tokyo.html" class="block h-full">
+                <img src="images/tokyo.jpg" alt="Tokyo" class="w-full h-full object-cover filter brightness-75 transition duration-300 hover:brightness-90">
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-2xl text-white font-bold text-shadow-xl">Tokyo</div>
+            </a>
+        </div>
+
+        <!-- City 5: Sydney -->
+        <div class="relative w-64 h-80 cursor-pointer overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+            <a href="sydney.html" class="block h-full">
+                <img src="images/sydney.jpg" alt="Sydney" class="w-full h-full object-cover filter brightness-75 transition duration-300 hover:brightness-90">
+                <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-2xl text-white font-bold text-shadow-xl">Sydney</div>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
