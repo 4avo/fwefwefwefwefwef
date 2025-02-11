@@ -1,4 +1,3 @@
-// api.js — Fetch and display London’s weather data
 
 const fetchWeatherForLondon = async () => {
     const apiRoot = "https://api.open-meteo.com/v1/forecast";
